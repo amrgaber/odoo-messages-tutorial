@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="event_event_view_form_discuss" model="ir.ui.view">
+            <field name="name">event.event.view.form.inherit.discuss</field>
+            <field name="model">event.event</field>
+            <field name="inherit_id" ref="event.view_event_form"/>
+            <field name="priority" eval="10"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='stage_id']" position="before">
+                    <button name="event_user_subscribe" type="object" string="Add Follower"
+                        class="btn btn-secondary"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
+
