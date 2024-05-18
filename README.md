@@ -1,2 +1,3 @@
 # odoo-messages-tutorial
-Odoo || Messages And Discussions
+Odoo || Messages , User Subscription And Discussion Tutorial
+```
